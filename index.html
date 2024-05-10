@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="Screenshot_20240228-084915.jpg" alt="Logo da cafeteria" />
+      </a>
+
+      <nav class="nav-bar">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Produtos</a>
+        <a href="#review">Avaliações</a>
+        <a href="#contact">Contato</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Pesquise aqui ..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="./img/cart-item-1.png" alt="" />
+          <div class="content">
+            <h3>Item do carrinho 1</h3>
+            <div class="price">R$15,99</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="./img/cart-item-2.png" alt="" />
+          <div class="content">
+            <h3>Item do carrinho 2</h3>
+            <div class="price">R$14,89</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="./img/cart-item-3.png" alt="" />
+          <div class="content">
+            <h3>Item do carrinho 3</h3>
+            <div class="price">R$13,69</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="./img/cart-item-4.png" alt="" />
+          <div class="content">
+            <h3>Item do carrinho 4</h3>
+            <div class="price">R$12,59</div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">Fazer checkout</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>A exclusividade que você merece</h3>
+        <p>
+          
+        </p>
+        <a href="#" class="btn">Peça já o seu café!</a>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>Sobre</span> nós</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./img/about-img.jpeg" alt="Xícara de café" />
+        </div>
+
+        <div class="content">
+          <h3>O que torna nosso café especial?</h3>
+          <p>
+            Comidas que fazem você ter uma experiência gastronômica única e especial, você encontra em nossa cafeteria, os nossos deliciosos pratos tem seus ingredientes meticulosamente selecionados.
+            O nosso café, também tem seu diferencial, os nossos grãos são orgânicos e moidos na hora em que seu pedido chega aos nossos baristas. Você também pode pedir café com decorações, pois aqui prezamos pela desgustação culinária e apreciação artistíca  
+          <p>
+            O nosso café é o melhor lugar para você que gosta de um ambiente acolhedor 
+          </p>
+          <a href="#" class="btn">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading"><span>Nosso</span> menu</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/menu-1.png" alt="Item do menu" />
+          <h3>Cappuccino</h3>
+          <div class="price">R$19,99 <span>20,99</span></div>
+          <a href="#" class="btn">Adicione ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-2.png" alt="Item do menu" />
+          <h3>Cafe au Lait</h3>
+          <div class="price">R$18,50 <span>22,99</span></div>
+          <a href="#" class="btn">Adicione ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-3.png" alt="Item do menu" />
+          <h3>Expresso</h3>
+          <div class="price">R$17,99 <span>20,99</span></div>
+          <a href="#" class="btn">Adicione ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-4.png" alt="Item do menu" />
+          <h3>Iced coffee</h3>
+          <div class="price">R$16,50 <span>20,99</span></div>
+          <a href="#" class="btn">Adicione ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-5.png" alt="Item do menu" />
+          <h3>Cafe Latte</h3>
+          <div class="price">R$15,99 <span>20,99</span></div>
+          <a href="#" class="btn">Adicione ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-6.png" alt="Item do menu" />
+          <h3>Mocha</h3>
+          <div class="price">R$14.85 <span>20,99</span></div>
+          <a href="#" class="btn">Adicione ao carrinho</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading"><span>Nosso</span> produtos</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="./img/product-1.png" alt="Produtos" />
+          </div>
+          <div class="content">
+            <h3>Nicaragua coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">R$25,99 <span>R$30,99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="./img/product-2.png" alt="Produtos" />
+          </div>
+          <div class="content">
+            <h3>Columbia coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">R$23,00 <span>R$27,85</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="./img/product-3.png" alt="Produtos" />
+          </div>
+          <div class="content">
+            <h3>Peru coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">R$15,99 <span>R$20,99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading"><span>Avaliação</span> de clientes</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/quote-img.png" alt="" class="quote" />
+          <p>
+            Lugar simplesmente fantástico! Um ambiente agradável e aconchegante onde passamos uma deliciosa tarde de inverno... Com um café de origem Colombiana de altíssima qualidade preparado com muito capricho acompanhando saborosos croissants de queijo e presunto e sem falar do incrível capuccino Brasileiro ao lado do magnífico cheesecake de frutas vermelhas... E pra finalizar aquele super chocolate quente preparado com ingredientes especiais. Simplesmente amamos e recomendamos este lugar maravilhoso. Melhor cafe/ bistrô que já fomos em Curitiba. Super recomendo!!! Obrigada pelo atendimento e carinho em cada detalhe Paisa Café. Voltaremos sempre!
+          </p>
+          <img src="./img/pic-1.png" class="user" alt="" />
+          <h3>João Santos</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img/quote-img.png" alt="" class="quote" />
+          <p>
+            Tudo delicioso! A coxinha com requeijão estava super crocante e saborosa, o tempero muito bom! Pedimos 2 mochas e estavam igualmente maravilhosos. O hamburgão também estava muito bom e bem servido.
+E o bolo de laranja macio e fofinho me lembrou muito minha avó.
+Certamente voltarei mais vezes, valeu muito a pena!
+Recomendo!
+          </p>
+          <img src="./img/pic-2.png" class="user" alt="" />
+          <h3>Helena Soares</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img/quote-img.png" alt="" class="quote" />
+          <p>
+            Sempre que posso venho aqui, o ambiente é extremamente aconchegante, todas as comidas são deliciosas e os cafés são ainda mais gostosos! Recomendo, inclusive, o coffee shake 🤍
+.
+          </p>
+          <img src="./img/pic-3.png" class="user" alt="" />
+          <h3>Jorge Ferreira</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Nosso</span> contato</h1>
+
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14408.481268205092!2d-49.2934508!3d-25.4676576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce320bfd56037%3A0x83f0ab27c0c868ea!2sCol%C3%A9gio%20Estadual%20Pedro%20Macedo!5e0!3m2!1spt-BR!2sbr!4v1714748074224!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;"
+         allowfullscreen=""  
+         loading="lazy"
+         referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <form action="">
+          <h3>Entre em contato</h3>
+          <div class="inputbox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="Digite seu Nome" />
+          </div>
+
+          <div class="inputbox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="Digite seu email" />
+          </div>
+
+          <div class="inputbox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="Digite seu número de celular" />
+          </div>
+
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading"><span>Nossos </span>blogs</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog-1.jpeg" alt="" />
+          </div>
+
+          <div class="content">
+            <a href="#" class="title">Faça seu próprio café</a>
+            <span>Feito por Fábio Garcia</span>
+            <p>
+             Tenha a expêriencia de fazer seu próprio café, com acesso à máquinas de última geração, 
+            </p>
+            <a href="#" class="btn">Saiba mais!</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog-2.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Dicas para cozinhar</a>
+            <span>Feito por Joana Silva</span>
+            <p> aprenda a fazer comidas e salgados maravolhosos!</p>
+            <a href="#" class="btn">Saiba mais!</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog-3.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Benefícios da Cafeína</a>
+            <span>Feito por Pablo Cabral</span>
+            <p>
+            existe algo melhor que o café?
+            </p>
+            <a href="#" class="btn">Saiba mais!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="share">
+        <a href="#home" class="fab fa-facebook-f"></a>
+        <a href="#home" class="fab fa-twitter"></a>
+        <a
+          href="https://instagram.com/giulyano_"
+          target="_blank"
+          class="fab fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/giulyano-santos-a92b6917b/"
+          target="_blank"
+          class="fab fa-linkedin"
+        ></a>
+        <a
+          href="https://github.com/Gsantos99/"
+          target="_blank"
+          class="fab fa-github"
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#menu">Menu </a>
+        <a href="#review">Avaliações</a>
+        <a href="#contact">Contato</a>
+        <a href="#blogs">Blogs</a>
+      </div>
+
+      <div class="credit">Feito por <span>Giulyano Santos</span></div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
